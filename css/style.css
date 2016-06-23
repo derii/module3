@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f9f9f9;
+	font-family: 'Open Sans', regular;
+}
+
+.main {
+	width: 1060px;
+	margin: 0 153px 0 153px;
+	background-color: #fff;	
+	-webkit-box-shadow: 0 0 10px -2px #6E6767;
+	   -moz-box-shadow: 0 0 10px -2px #6E6767;
+	        box-shadow: 0 0 10px -2px #6E6767;
+}
+.wrapper {
+	width: 960px;
+	padding: 50px 50px 60px;
+}
+.header img {
+	margin: 0;
+}
+.top-nav {
+	margin: 40px 0;
+	width: 100%;
+	display: inline-block;
+	background: #565555 url(../img/fon-menu.jpg) repeat-x;
+}
+.top-nav li {
+	padding: 9px 25px;
+	float: left;
+	list-style: none;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+.top-nav li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14.67px;
+}
+.top-nav li:hover {
+	display: inline-block;
+	background: #565555 url(../img/fon-hover.jpg) repeat-x;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.left-sidebar {
+	float: left;
+	width: 240px;
+}
+.left-menu li {
+	list-style: none;
+	padding: 14px 25px;
+	border-top: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+}
+.left-menu li:last-child {
+	border-bottom: 1px solid #c8c8c8;
+}
+.left-menu li a {
+	text-decoration: none;
+	color: #656363;
+	font-size: 13.33px;
+}
+.left-menu li:hover {
+	padding-left: 35px;
+	background: #f9f9f9;
+	color: #2c2c2c;
+}
+.content {
+	float: right;
+	margin-left: 48px;
+	width: 670px;
+}
+.content-img {
+	border: 1px solid #c8c8c8;
+}
+.content-img img {
+	padding: 51px 85px;
+}
+.content-text {
+	margin-top: 40px;
+}
+.content-text p {
+	padding: 0 24px;
+	font-size: 13.33px;
+	line-height: 21.33px;
+}
+.footer {
+margin-top: 60px;
+	display: inline-block;
+	width: 960px;
+	background-color: #e1e1e1;
+}
+.footer-nav {
+
+	display: inline-block;
+}
+.footer-nav li {
+	padding: 10px 25px;
+	float: left;
+	list-style: none;
+}
+.footer-nav li a {
+	text-decoration: none;
+	color: #2c2c2c;
+	font-size: 13.33px;
+}
+.footer-active,
+.footer-nav li a:hover {
+	text-decoration: underline;
+}
+.footer-menu {
+	width: 50%;
+	float: left;
+}
+.copyright {
+	margin-top: 13px;
+	width: 50%;
+	float: right;
+}
+.copyright p {
+	text-align: right;
+	padding-right: 20px;
+	font-size: 13.33px;
+}
